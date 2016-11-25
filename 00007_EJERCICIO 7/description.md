@@ -1,0 +1,1 @@
+> En cuanto a las medidas de variabilidad se puede afirmar que: 

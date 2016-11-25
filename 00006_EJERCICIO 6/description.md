@@ -1,0 +1,1 @@
+> Marque la afirmación correcta.  

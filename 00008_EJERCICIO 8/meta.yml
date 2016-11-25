@@ -1,0 +1,22 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: 
+teacher_info: ''
+manual_evaluation: false
+choices:
+- value: A) En un proceso de inferencia estadística, llevado a cabo con una muestra
+    aleatoria, es posible estimar el valor de un parámetro.
+  checked: true
+- value: B) Con una muestra aleatoria y representativa, es posible determinar el valor
+    del parámetro.
+  checked: false
+- value: C) La estadística descriptiva nos permite determinar el valor del parámetro
+    si la muestra utilizada es aleatoria.
+  checked: false
+- value: D) Para estimar el valor de un parámetro, es necesario que la población sea
+    finita.
+  checked: false
