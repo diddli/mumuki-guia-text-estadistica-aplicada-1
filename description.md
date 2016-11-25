@@ -1,1 +1,1 @@
-Guía de práctica para estadistíca aplicada
+Guía de práctica para Estadistíca Aplicada 1
