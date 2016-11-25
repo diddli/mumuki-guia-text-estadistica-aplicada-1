@@ -8,13 +8,13 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: En una prueba de Bernoulli, la probabilidad de éxito es independiente de
-    la probabilidad de fracaso.
+- value: A) En una prueba de Bernoulli, la probabilidad de éxito es independiente
+    de la probabilidad de fracaso.
   checked: false
-- value: Si realizamos n pruebas de Bernoulli, las n pruebas son mutuamente excluyentes.
+- value: B) Si realizamos n pruebas de Bernoulli, las n pruebas son mutuamente excluyentes.
   checked: false
-- value: Las pruebas de Bernoulli son mutuamente independientes entre sí.
+- value: C) Las pruebas de Bernoulli son mutuamente independientes entre sí.
   checked: true
-- value: Una prueba de Bernoulli tiene solo dos posibles resultados mutuamente excluyentes
-    e igualmente probables.
+- value: D) Una prueba de Bernoulli tiene solo dos posibles resultados mutuamente
+    excluyentes e igualmente probables.
   checked: false
