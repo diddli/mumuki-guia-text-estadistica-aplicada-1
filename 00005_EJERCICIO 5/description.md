@@ -1,0 +1,1 @@
+> En relación a la función de probabilidad acumulativa de una variable aleatoria discreta, la afirmación correcta es:  
