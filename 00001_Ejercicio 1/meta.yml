@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: Ω es un espacio muestral infinito no numerable.
+- !ruby/hash:BSON::Document
+  value: Ω es un espacio muestral infinito no numerable.
   checked: false
-- value: La probabilidad en cada elección es excluyente de la anterior.
+- !ruby/hash:BSON::Document
+  value: La probabilidad en cada elección es excluyente de la anterior.
   checked: false
-- value: La probabilidad en cada elección es independiente de la anterior.
+- !ruby/hash:BSON::Document
+  value: La probabilidad en cada elección es independiente de la anterior.
   checked: true
-- value: Los eventos que se originen son infinitos numerables.
+- !ruby/hash:BSON::Document
+  value: Los eventos que se originen son infinitos numerables.
   checked: false

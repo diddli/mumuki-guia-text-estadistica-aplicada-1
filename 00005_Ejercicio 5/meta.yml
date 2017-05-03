@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: A) Su valor puede ser cualquier número real.
+- !ruby/hash:BSON::Document
+  value: A) Su valor puede ser cualquier número real.
   checked: false
-- value: B) Siempre es creciente.
+- !ruby/hash:BSON::Document
+  value: B) Siempre es creciente.
   checked: false
-- value: C) Su gráfica es continua para todos los valores del rango.
+- !ruby/hash:BSON::Document
+  value: C) Su gráfica es continua para todos los valores del rango.
   checked: false
-- value: D) Es continua por tramos.
+- !ruby/hash:BSON::Document
+  value: D) Es continua por tramos.
   checked: true

@@ -8,14 +8,18 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: A) En un espacio muestral infinito no numerable con tres dimensiones, la
+- !ruby/hash:BSON::Document
+  value: A) En un espacio muestral infinito no numerable con tres dimensiones, la
     probabilidad de un evento definido sobre un plano es cero.
   checked: false
-- value: B) En un espacio muestral infinito todos los puntos son igualmente probables.
+- !ruby/hash:BSON::Document
+  value: B) En un espacio muestral infinito todos los puntos son igualmente probables.
   checked: false
-- value: C) Un espacio muestral infinito no numerable siempre tiene un número ilimitado
+- !ruby/hash:BSON::Document
+  value: C) Un espacio muestral infinito no numerable siempre tiene un número ilimitado
     de puntos muestrales.
   checked: true
-- value: D) La probabilidad definida sobre un espacio muestral infinito siempre es
+- !ruby/hash:BSON::Document
+  value: D) La probabilidad definida sobre un espacio muestral infinito siempre es
     aproximada
   checked: false

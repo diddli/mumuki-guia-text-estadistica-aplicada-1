@@ -8,11 +8,15 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: A) El coeficiente de variabilidad no es aplicable para datos homogéneos.
+- !ruby/hash:BSON::Document
+  value: A) El coeficiente de variabilidad no es aplicable para datos homogéneos.
   checked: false
-- value: B) La desviación estándar siempre es no negativa.
+- !ruby/hash:BSON::Document
+  value: B) La desviación estándar siempre es no negativa.
   checked: true
-- value: C) Para un conjunto de datos heterogéneos, la variabilidad absoluta es constante.
+- !ruby/hash:BSON::Document
+  value: C) Para un conjunto de datos heterogéneos, la variabilidad absoluta es constante.
   checked: false
-- value: D) La variabilidad relativa debe ser menor del 100%.
+- !ruby/hash:BSON::Document
+  value: D) La variabilidad relativa debe ser menor del 100%.
   checked: false

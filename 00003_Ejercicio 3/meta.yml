@@ -8,13 +8,17 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: A) En una prueba de Bernoulli, la probabilidad de éxito es independiente
+- !ruby/hash:BSON::Document
+  value: A) En una prueba de Bernoulli, la probabilidad de éxito es independiente
     de la probabilidad de fracaso.
   checked: false
-- value: B) Si realizamos n pruebas de Bernoulli, las n pruebas son mutuamente excluyentes.
+- !ruby/hash:BSON::Document
+  value: B) Si realizamos n pruebas de Bernoulli, las n pruebas son mutuamente excluyentes.
   checked: false
-- value: C) Las pruebas de Bernoulli son mutuamente independientes entre sí.
+- !ruby/hash:BSON::Document
+  value: C) Las pruebas de Bernoulli son mutuamente independientes entre sí.
   checked: true
-- value: D) Una prueba de Bernoulli tiene solo dos posibles resultados mutuamente
+- !ruby/hash:BSON::Document
+  value: D) Una prueba de Bernoulli tiene solo dos posibles resultados mutuamente
     excluyentes e igualmente probables.
   checked: false

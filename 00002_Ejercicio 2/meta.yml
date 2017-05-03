@@ -8,15 +8,19 @@ language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- value: La función de probabilidad de una variable aleatoria discreta es un número
+- !ruby/hash:BSON::Document
+  value: La función de probabilidad de una variable aleatoria discreta es un número
     real.
   checked: false
-- value: El rango de la función de probabilidad de una variable aleatoria discreta
+- !ruby/hash:BSON::Document
+  value: El rango de la función de probabilidad de una variable aleatoria discreta
     es un conjunto numerable.
   checked: true
-- value: El dominio de una función de probabilidad es el espacio muestral del respectivo
+- !ruby/hash:BSON::Document
+  value: El dominio de una función de probabilidad es el espacio muestral del respectivo
     experimento aleatorio.
   checked: false
-- value: Para una variable aleatoria discreta la función de probabilidad no necesariamente
+- !ruby/hash:BSON::Document
+  value: Para una variable aleatoria discreta la función de probabilidad no necesariamente
     representa una probabilidad.
   checked: false
