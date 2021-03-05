@@ -1,26 +1,27 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: La función de probabilidad de una variable aleatoria discreta es un número
     real.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El rango de la función de probabilidad de una variable aleatoria discreta
     es un conjunto numerable.
   checked: true
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: El dominio de una función de probabilidad es el espacio muestral del respectivo
     experimento aleatorio.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Para una variable aleatoria discreta la función de probabilidad no necesariamente
     representa una probabilidad.
   checked: false
+name: Ejercicio 2

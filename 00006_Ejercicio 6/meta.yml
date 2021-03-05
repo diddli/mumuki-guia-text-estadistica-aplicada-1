@@ -1,26 +1,27 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: A) La distribución Binomial se puede utilizar para aproximar las probabilidades
     de una distribución Poisson.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: B) La distribución Hipergeométrica se puede utilizar para aproximar las probabilidades
     de una distribución Binomial.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: C) Una condición para aproximar una distribución Hipergeométrica mediante
     la Binomial es que la fracción de muestreo sea muy pequeña.
   checked: true
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: D) Una condición necesaria para aproximar una distribución de Poisson mediante
     la Binomial es que n sea menor de 5.
   checked: false
+name: Ejercicio 6

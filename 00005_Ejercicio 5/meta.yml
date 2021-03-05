@@ -1,22 +1,23 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: A) Su valor puede ser cualquier número real.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: B) Siempre es creciente.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: C) Su gráfica es continua para todos los valores del rango.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: D) Es continua por tramos.
   checked: true
+name: Ejercicio 5

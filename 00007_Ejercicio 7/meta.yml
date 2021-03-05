@@ -1,22 +1,23 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: A) El coeficiente de variabilidad no es aplicable para datos homogéneos.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: B) La desviación estándar siempre es no negativa.
   checked: true
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: C) Para un conjunto de datos heterogéneos, la variabilidad absoluta es constante.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: D) La variabilidad relativa debe ser menor del 100%.
   checked: false
+name: Ejercicio 7

@@ -1,23 +1,24 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: A) Dos eventos complementarios, forman una participación de Ω.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: B) Dos eventos excluyentes y diferentes del vacío, son independientes.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: C) Dos eventos que forman una partición de Ω, son dependientes.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: D) Dos eventos excluyentes, diferentes del vacío y dependientes; forman una
     partición de
   checked: true
+name: Ejercicio 9

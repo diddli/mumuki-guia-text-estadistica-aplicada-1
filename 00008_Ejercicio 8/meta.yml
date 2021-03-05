@@ -1,26 +1,27 @@
 ---
+locale: es
 tags: []
 layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 teacher_info: ''
 manual_evaluation: false
 choices:
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: A) En un proceso de inferencia estadística, llevado a cabo con una muestra
     aleatoria, es posible estimar el valor de un parámetro.
   checked: true
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: B) Con una muestra aleatoria y representativa, es posible determinar el valor
     del parámetro.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: C) La estadística descriptiva nos permite determinar el valor del parámetro
     si la muestra utilizada es aleatoria.
   checked: false
-- !ruby/hash:BSON::Document
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: D) Para estimar el valor de un parámetro, es necesario que la población sea
     finita.
   checked: false
+name: Ejercicio 8
